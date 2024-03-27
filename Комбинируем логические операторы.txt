@@ -1,0 +1,76 @@
+let enoughDevelopers = true;
+let techAvailable = true;
+let onVacation = false;
+let onSickLeave = false;
+
+if (enoughDevelopers && techAvailable && !onVacation && !onSickLeave) {
+  console.log('Проект можно выполнить');
+} else {
+  console.log('Проект нельзя выполнить');
+}
+
+enoughDevelopers = true;
+techAvailable = true;
+onVacation = true;
+onSickLeave = false;
+
+if (enoughDevelopers && techAvailable && !onVacation && !onSickLeave) {
+  console.log('Проект можно выполнить');
+} else {
+  console.log('Проект нельзя выполнить');
+}
+
+enoughDevelopers = true;
+techAvailable = true;
+onVacation = true;
+onSickLeave = true;
+
+if (enoughDevelopers && techAvailable && !onVacation && !onSickLeave) {
+  console.log('Проект можно выполнить');
+} else {
+  console.log('Проект нельзя выполнить');
+}
+
+enoughDevelopers = false;
+techAvailable = true;
+onVacation = false;
+onSickLeave = false;
+
+if (enoughDevelopers && techAvailable && !onVacation && !onSickLeave) {
+  console.log('Проект можно выполнить');
+} else {
+  console.log('Проект нельзя выполнить');
+}
+
+enoughDevelopers = true;
+techAvailable = false;
+onVacation = false;
+onSickLeave = false;
+
+if (enoughDevelopers && techAvailable && !onVacation && !onSickLeave) {
+  console.log('Проект можно выполнить');
+} else {
+  console.log('Проект нельзя выполнить');
+}
+
+enoughDevelopers = true;
+techAvailable = true;
+onVacation = true;
+onSickLeave = false;
+
+if (enoughDevelopers && techAvailable && !onVacation && !onSickLeave) {
+  console.log('Проект можно выполнить');
+} else {
+  console.log('Проект нельзя выполнить');
+}
+
+enoughDevelopers = true;
+techAvailable = true;
+onVacation = true;
+onSickLeave = true;
+
+if (enoughDevelopers && techAvailable && !onVacation && !onSickLeave) {
+  console.log('Проект можно выполнить');
+} else {
+  console.log('Проект нельзя выполнить');
+}

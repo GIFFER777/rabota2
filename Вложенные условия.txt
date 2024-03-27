@@ -1,0 +1,13 @@
+let enoughDevelopers = true;
+let techAvailable = false;
+let message = 'Проект нельзя выполнить';
+console.log(message);
+
+if (enoughDevelopers) {
+  if (techAvailable) {
+    message = 'Проект можно выполнить';
+  }
+}
+
+techAvailable = true;
+console.log(message);

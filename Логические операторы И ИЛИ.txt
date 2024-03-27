@@ -1,0 +1,16 @@
+let enoughDevelopers = true;
+let techAvailable = false;
+let onVacation = false;
+let onSickLeave = false;
+
+if (enoughDevelopers && techAvailable) {
+  console.log('Проект можно выполнить');
+}
+
+if (onVacation || onSickLeave) {
+  console.log('Проект нельзя выполнить');
+}
+
+// After changing the values of techAvailable and onSickLeave
+techAvailable = false;
+onSickLeave = true;

@@ -1,0 +1,37 @@
+let enoughDevelopers = true;
+let techAvailable = false;
+let onVacation = true;
+let onSickLeave = false;
+
+if (enoughDevelopers && techAvailable) {
+  console.log('Проект можно выполнить');
+}
+
+if (onVacation || onSickLeave) {
+  console.log('Проект нельзя выполнить');
+}
+
+
+console.log("enoughDevelopers:", enoughDevelopers);
+console.log("techAvailable:", techAvailable);
+console.log("onVacation:", onVacation);
+console.log("onSickLeave:", onSickLeave);
+
+if (enoughDevelopers) {
+  console.log("Есть достаточно разработчиков.");
+}
+if (techAvailable) {
+  console.log("Разработчики владеют необходимыми технологиями.");
+}
+if (onVacation) {
+  console.log("Кто-то из разработчиков в отпуске.");
+}
+if (onSickLeave) {
+  console.log("Кто-то из разработчиков на больничном.");
+}
+
+if (enoughDevelopers && techAvailable && !onVacation && !onSickLeave) {
+  console.log("Проект можно выполнить.");
+} else if (onVacation || onSickLeave) {
+  console.log("Проект нельзя выполнить.");
+}

@@ -1,0 +1,6 @@
+let onVacation;
+if (onVacation) {
+  console.log('Проект нельзя выполнить');
+} else {
+  console.log('Проект можно выполнить');
+}
